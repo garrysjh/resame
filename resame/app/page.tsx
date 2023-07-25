@@ -1,9 +1,10 @@
-import Scene from './scene'
+import Scene from './components/scene'
+import FirstBox from './components/firstbox'
 
 export default function Home() {
   return (
     <main>
-        <p>sst</p>
+        <FirstBox/>
         <Scene/>
     </main>
   )
